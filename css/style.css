@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+}
+.navbar, .navbar-default, .navbar-header {
+  background-color: rgba(20, 10, 3, 0.3);
+  margin-bottom: 0px;
+  border: none;
+  margin-left: -16px;
+  margin-right: -17px;
+  height: 75px;
+  padding-left: 5vw;
+  padding-right: 10vw;
+}
+.navbar-collapse, .collapse {
+  float: right;
+}
+.navbar-brand {
+  /*opacity: 0.4;*/
+}
+.color {
+  color: #da7e25 !important;
+}
+
+.facebook {
+  width: 70px;
+  border-radius: 5px;
+}
+#theater {
+  height: 220px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+#marq {
+  background-color: rgba(20, 10, 3, 0.3);
+  opacity: 1;
+}
+
+h1, p {
+  color: white;
+}
+
+h1 {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.smallcol {
+  padding-left: 10vw;
+}
