@@ -108,11 +108,20 @@ h1 {
 }
 
 @media (max-width: 1300px) {
+
+}
+@media (max-width: 991px) {
+.vertical {
+  display: none;
+}
 #leftshow {
-  display: block;
+  top: -50px;
 }
 #rightshow {
-  display: block;
-
+  top: -100px;
+}
+#showtimes {
+  width: 75vw;
+  height: 42vh;;
 }
 }
